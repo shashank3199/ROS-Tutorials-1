@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="3">
+    <name>cpp_pub_sub_pkg</name>
+    <version>0.0.1</version>
+    <description>Pure C++ publisher and subscriber package</description>
+
+    <maintainer email="shashank3199@gmail.com">Shashank Goyal</maintainer>
+    <license>Apache License 2.0</license>
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+    <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+    <build_depend>rclcpp</build_depend>
+    <build_depend>geometry_msgs</build_depend>
+
+    <exec_depend>rclcpp</exec_depend>
+    <exec_depend>geometry_msgs</exec_depend>
+    <exec_depend>rosidl_default_runtime</exec_depend>
+
+    <member_of_group>rosidl_interface_packages</member_of_group>
+
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+
+</package>
